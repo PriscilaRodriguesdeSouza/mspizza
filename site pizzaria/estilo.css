@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+
+html{
+
+}
+
+h2{
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FF0000;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo h3{
+    color: black;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu a{
+    color: black
+}
+
+.nav-menu a:hover{
+    color: #FFFC05;
+}
+
+.nav-icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-icons img{
+    width: 30px;
+    cursor: pointer;
+}
+
+.nav-icons img:hover{
+    background-color: #FFFC05;
+    border-radius: 30px;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(img/slider-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-principal span{
+    color: #FFFC05;
+    text-transform: initial;
+}
+
+.main-principal h1{
+    margin-top: 200px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.main-principal button{
+    display: block;
+    margin: auto;
+    background: #FF0000;
+    color: black;
+    height: 28px;
+    width: 40%;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.destaque{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    margin-top: 30px;
+    width: 100%;
+    padding: 20px;
+}
+
+.destaque img{
+    background-size: cover;
+    width: 300px; 
+}
+
+.destaque button{
+    background-color: #FF0000;
+    color: black;
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+}
+
+.section-como-funciona-titulo{
+    display: block;
+    margin: auto;
+    width: 15%;
+
+}
+
+.section-como-funciona-titulo span{
+    color: #FF0000;
+}
+
+.comofunciona{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.comofunciona img{
+    background-size: cover;
+    width: 200px;
+    border-radius: 30px;
+}
